@@ -28,7 +28,7 @@ function App() {
       try {
         const res = await fetch("https://api.exchangerate-api.com/v4/latest/USD");
         const data = await res.json();
-        setExchangeRate(data.rates.TRY); // TRY kuru
+        setExchangeRate(data.rates.TRY);
       } catch (err) {
         setError("Döviz kuru alınamadı");
       }
@@ -37,7 +37,7 @@ function App() {
     fetchExchangeRate();
   }, []);
 
-  // 3. Çeviri işlemi (title + category)
+  // 3. Ürünleri çevir (başlık + kategori)
   useEffect(() => {
     const translateText = async (text) => {
       const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|tr`;
