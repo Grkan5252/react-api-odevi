@@ -2,29 +2,29 @@
 
 ## 🎯 Amaç
 
-Bu projede React kullanarak:
+Bu projede React kullanılarak;
 
-- Ürün verilerini API'den almak
-- İngilizce başlık ve kategorileri Türkçeye çevirmek
-- USD fiyatlarını TL'ye çevirmek
-- Kullanıcıya sade ve anlaşılır bir arayüz sunmak amaçlanmıştır.
-
-## 🧰 Kullanılan Teknolojiler
-
-- React (useState, useEffect)
-- Fetch API
-- MyMemory Translation API
-- ExchangeRate API
+- Ürün verileri API'den çekildi
+- İngilizce başlıklar ve kategoriler MyMemory API ile Türkçeye çevrildi
+- USD fiyatları ExchangeRate API ile TL'ye çevrildi
+- Yükleme ve hata durumları yönetildi
+- Sonuçlar sade bir arayüz ile gösterildi
 
 ## 📦 Kullanılan API'ler
 
-- Ürün API'si: https://fakestoreapi.com/products
-- Çeviri API'si: https://api.mymemory.translated.net/get
-- Döviz Kuru API'si: https://api.exchangerate-api.com/v4/latest/USD
+- Ürün verisi: https://fakestoreapi.com/products
+- Çeviri: https://api.mymemory.translated.net/get
+- Döviz kuru: https://api.exchangerate-api.com/v4/latest/USD
+
+## 🛠️ Kullanılan Teknolojiler
+
+- React (useState, useEffect)
+- Fetch API
+- Asenkron işlemler (async/await)
 
 ## ✅ Tamamlananlar
 
 - [x] Ürün verisi çekme
-- [x] İngilizce → Türkçe çeviri
-- [x] USD → TL fiyat hesaplama
+- [x] Çeviri işlemi
+- [x] Fiyat dönüşümü
 - [x] Listeleme ve görsel gösterimi
