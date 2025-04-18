@@ -2,29 +2,30 @@
 
 ## 🎯 Amaç
 
-Bu projede React kullanılarak;
+React ile basit bir ürün listeleme uygulaması geliştirdim. Projede:
 
-- Ürün verileri API'den çekildi
-- İngilizce başlıklar ve kategoriler MyMemory API ile Türkçeye çevrildi
+- API'den ürün verisi çekildi
+- İngilizce başlık ve kategoriler MyMemory API ile Türkçeye çevrildi
 - USD fiyatları ExchangeRate API ile TL'ye çevrildi
-- Yükleme ve hata durumları yönetildi
-- Sonuçlar sade bir arayüz ile gösterildi
+- React ile yükleme ve hata yönetimi yapıldı
 
-## 📦 Kullanılan API'ler
+## 🔗 Kullanılan API'ler
 
-- Ürün verisi: https://fakestoreapi.com/products
-- Çeviri: https://api.mymemory.translated.net/get
-- Döviz kuru: https://api.exchangerate-api.com/v4/latest/USD
+- [Fake Store API](https://fakestoreapi.com/products)
+- [MyMemory Translation API](https://api.mymemory.translated.net/get)
+- [ExchangeRate API](https://api.exchangerate-api.com/v4/latest/USD)
 
-## 🛠️ Kullanılan Teknolojiler
+## ⚙️ Kullanılan Teknolojiler
 
-- React (useState, useEffect)
+- React (useEffect, useState)
+- JavaScript (ES6+)
 - Fetch API
-- Asenkron işlemler (async/await)
+- Async/Await
 
-## ✅ Tamamlananlar
+## ✅ Tamamlanan Özellikler
 
-- [x] Ürün verisi çekme
-- [x] Çeviri işlemi
-- [x] Fiyat dönüşümü
-- [x] Listeleme ve görsel gösterimi
+- [x] API'den veri çekme
+- [x] Başlık ve kategori çevirisi
+- [x] TL fiyat hesabı
+- [x] Listeleme ve görseller
+- [x] Hata & yükleniyor durumu
